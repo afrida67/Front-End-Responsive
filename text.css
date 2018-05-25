@@ -1,0 +1,213 @@
+html, body, section {
+  height: 100%;
+}
+
+body {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  line-height: 150%;
+  background-color:#206020;
+  text-shadow: 0 1px 1px #b6701e;
+}
+
+/*div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}*/
+u {  
+  border-bottom: 1.7px solid white;
+  width: 60%;
+  text-decoration: None;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+table {
+  width:auto;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+h3 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+p {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+h5{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+h1 {
+  font-size: 8.75rem;
+  color:#32CD32;
+  text-align: center;
+  font-weight: bolder;
+}
+h2 {
+  font-size: 2.75rem;
+  text-align: right;
+  position: relative;
+  right:5px;
+
+}
+/* Pattern styles */
+.container {
+  display: flex;
+}
+
+
+.chart{
+  padding:  1em 3px 3px 5px;
+  width: 116;
+  height: 193;
+  position: relative;
+  left: 120px;
+  bottom: 110px;
+}
+
+.chart2{
+  padding:  1em 3px 3px 5px;
+  width: 66;
+  height: 63;
+  position: absolute;
+  left: 192px;
+  bottom: 0px;
+}
+
+.chart3{
+  padding:  1em 3px 3px 5px;
+  width: 66;
+  height: 63;
+  position: absolute;
+  left: 292px;
+  bottom: 0px;
+}
+
+.chart4{
+  padding:  1em 3px 3px 5px;
+  width: 66;
+  height: 63;
+  position: absolute;
+  left: 402px;
+  bottom: 0px;
+}
+
+.chart5{
+  padding:  1em 3px 3px 5px;
+  width: 66;
+  height: 63;
+  position: absolute;
+  left: 524px;
+  bottom: 0px;
+}
+
+.chart6{
+  padding:  1em 3px 3px 5px;
+  width: 66;
+  height: 63;
+  position: absolute;
+  left: 623px;
+  bottom: 0px;
+}
+
+/*play buttons*/
+.btn {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+ 
+}
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+.btnGreen {
+  background-color: transparent;
+  border: none;
+  color: #32CD32;
+  padding: 12px 16px;
+  font-size: 16px;
+
+}
+.btnRed {
+  background-color: transparent;
+  border: none;
+  color: red;
+  padding: 12px 16px;
+  font-size: 16px;
+}
+.btnYellow{
+  background-color: transparent;
+  border: none;
+  color: yellow;
+  padding: 12px 16px;
+  font-size: 16px;
+
+}
+/*dropdown*/
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+/*media query*/
+h1.example {
+  background-color: transparent;
+  padding: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  h1.example {
+    display: none;
+  }
+}
+h6.example {
+  padding: 20px;
+  text-align: right;
+  font-size: 24px;
+  color:#32CD32;
+  font-weight: bold;
+}
+/*550*/
+@media screen and (min-width: 850px) {
+  h6.example {
+    display: none;
+  }
+}
