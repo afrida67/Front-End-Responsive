@@ -1,4 +1,5 @@
-var myCanvas = document.getElementById("myCanvas1");
+function drawInCanvas(id){
+var myCanvas = document.getElementById(id);
 myCanvas.width = 50;
 myCanvas.height = 40;
  
@@ -91,4 +92,10 @@ var myDougnutChart = new Piechart(
 
     myDougnutChart.draw() ;
 
+}
 
+drawInCanvas("myCanvas1");
+drawInCanvas("myCanvas2");
+drawInCanvas("myCanvas3");
+drawInCanvas("myCanvas4");
+drawInCanvas("myCanvas5");
