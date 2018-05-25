@@ -63,7 +63,6 @@ var Piechart = function(options){
             color_index++;
         }
  
-        //drawing a white circle over the chart
         //to create the doughnut chart
         if (this.options.doughnutHoleSize){
             
