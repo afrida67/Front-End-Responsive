@@ -45,10 +45,8 @@ h1 {
   font-weight: bolder;
 }
 h2 {
-  font-size: 2.75rem;
+  font-size:3vw;
   text-align: right;
-  position: relative;
-  right:5px;
 
 }
 /* Pattern styles */
