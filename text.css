@@ -271,59 +271,6 @@ h2 {
 }
 
 
-.chart{
-  padding:  1em 3px 3px 5px;
-  width: 116;
-  height: 193;
-  position: relative;
-  left: 120px;
-  bottom: 110px;
-}
-
-.chart2{
-  padding:  1em 3px 3px 5px;
-  width: 66;
-  height: 63;
-  position: absolute;
-  left: 192px;
-  bottom: 0px;
-}
-
-.chart3{
-  padding:  1em 3px 3px 5px;
-  width: 66;
-  height: 63;
-  position: absolute;
-  left: 292px;
-  bottom: 0px;
-}
-
-.chart4{
-  padding:  1em 3px 3px 5px;
-  width: 66;
-  height: 63;
-  position: absolute;
-  left: 402px;
-  bottom: 0px;
-}
-
-.chart5{
-  padding:  1em 3px 3px 5px;
-  width: 66;
-  height: 63;
-  position: absolute;
-  left: 524px;
-  bottom: 0px;
-}
-
-.chart6{
-  padding:  1em 3px 3px 5px;
-  width: 66;
-  height: 63;
-  position: absolute;
-  left: 623px;
-  bottom: 0px;
-}
 
 /*play buttons*/
 .btn {
