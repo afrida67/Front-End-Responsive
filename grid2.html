@@ -1,34 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>LRW Feedback</title>
+  <title>LRW NEW</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <link rel="stylesheet" href="bootstrap.min.css" type="text/css" media="all" />
   <link rel="stylesheet" href="text.css" type="text/css" media="all" />
-
-  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
 
 </head>
-
 <body>
-        <h2>KPI</h2>
-     
-        <h6 class="example">LRW</h6>
-           <!--for mobile screen-->   
 
 <div class="container-fluid">
+  <h1>KPI</h1>
+  <div class="row" style="background-color:lavender;">
 
-  <div class="row">
-    <div class="col-md-5">
-        
-            <u>Current Quarter:</u>
+    <div class="col-sm-5 col-md-6" style="background-color:#206020">
+
+        <u>Current Quarter:</u>
      
             <!--<button class="btn"><i class="fa fa-play" aria-hidden="true"></i></button>-->
             <h5>Receieved Project:&emsp;&emsp;&nbsp;51 (65 including phases)   
@@ -107,7 +99,9 @@
 
                 <br>
     
-                     <u>Feedback:</u>                          
+                     <u>Feedback:</u>   
+                     <br>  
+                     <br>                     
                          <p>Positive : 30
                              <n class="btnGreen"><i class="fa fa-play" aria-hidden="true"></i></n>
                         </p>                       
@@ -117,75 +111,71 @@
                             <n class="btnYellow"><i class="fa fa-play" aria-hidden="true"></i></button></n>  
 
                 <!--chart will be added here-->
-
-                  <!-- chart class -->      
-                  <div class="chart">
+                <div class="chart">
                         <canvas id="myCanvas"></canvas> 
                         <script type="text/javascript" src="script.js"></script>
                        
-                    </div>
-                   
-                      <!-- chart class ends -->  
-
-     <!--last div maybe-->  
-    </div>    
-
-    <div class="col-md-7" style="background-color:#206020;">
-        <!--for big screen-->
-          <h1 class="example">LRW</h1>
-
-      <!--table starts-->
-      <u>Historical:</u>  
-      <br>
-      <div class="container-fluid">                                                                                      
-             
-             <table class="table">
-               <thead>
+                </div>
     
-                 <tr>
-                   <th></th>
-                   <th>2014</th>
-                   <th>2015</th>
-                   <th>2016</th>
-                   <th>2017</th>
-                   <th>2018</th>
-                 </tr>
-               </thead>
-               <tbody>
-                 <tr>
-                   <td>Projects</td>
-                   <td>50</td>
-                   <td>100</td>
-                   <td>150</td>
-                   <td>200</td>
-                   <td>30</td>
-                 </tr>
-           
-                 <tr>
-                       <td>Hours</td>
-                       <td>100</td>
-                       <td>200</td>
-                       <td>250</td>
-                       <td>400</td>
-                       <td>70</td>
-                </tr>
-           
-                
-                <tr>
+    </div>
+
+
+
+    <div class="col-sm-5 col-sm-offset-2 col-md-6 col-md-offset-0" style="background-color:#5C6BC0;">
+            <h1 class="example">LRW</h1>
+
+             <!--table starts-->
+      
+                    <p>Historical</p>
+                      <div class="table-responsive">          
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>#</th>
+                          <th>2014</th>
+                          <th>2015</th>
+                          <th>2016</th>
+                          <th>2017</th>
+                          <th>2018</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+
+                        <tr>
+                          <td>Projects</td>
+                          <td>50</td>
+                          <td>100</td>
+                          <td>150</td>
+                         <td>200</td>
+                         <td>30</td>
+                        </tr>
+
+                        <tr>
+                                <td>Hours</td>
+                                <td>100</td>
+                                <td>200</td>
+                                <td>250</td>
+                                <td>400</td>
+                                <td>70</td>
+                         </tr>
+
+                         <tr>
                   
-                       <td>Feedback</td>
-                       <td></td>
-                       <td></td>
-                       <td></td>
-                       <td></td>
-                       <td></td>
-                </tr>
-           
-               </tbody>
-             </table>
-             </div> 
+                                <td>Feedback</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                         </tr>
+
+                      </tbody>
+                    </table>
+                    </div>
+                               
        <!--table closes-->  
 
+       <!--charts starts-->
        <div class="chart2">
             <canvas id="myCanvas1"></canvas>
      
@@ -213,15 +203,18 @@
                         
                          
                     </div>
-     </div>
-            
-   
-    </div>
+        <!--chart ends-->
+
     
+    </div>
+
+
+
 
   </div>
-
 </div>
 <script type="text/javascript" src="script2.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>   
 </body>
 </html>
